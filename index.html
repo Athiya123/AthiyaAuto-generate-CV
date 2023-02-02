@@ -89,16 +89,16 @@
             <!-- Degree , College , Starting Year , Passing Year , CGPA -->
           </fieldset>
           <fieldset>
-            <legend>Skills</legend>
-            <!-- skills -->
-            <label for="skills">skills : </label>
-            <input
-              type="textarea"
-              id="skills"
-              name="skills"
-              placeholder="skills eg. HTML , CSS"
-            /><br />
-          </fieldset>
+             <legend>Skills</legend>
+          
+          Skills: <textarea rows="8" cols="30" 
+            placeholder="Skills e.g. HTML, CSS, Javascript"></textarea>
+    
+        <!-- skills -->
+        <!-- <form 
+            <textarea name="message" rows="50" cols="80"><input type = "text" placeholder="skills eg.HTML,CSS"</textarea> -->
+    </fieldset>
+
           <fieldset>
             <legend>Projects</legend>
             <!-- Project , Description , Link -->
@@ -110,15 +110,9 @@
               name="Project"
               placeholder="Project"
             /><br />
+            Description: <textarea rows="8" cols="30" 
+            placeholder="Write in HTML format"></textarea><br>
 
-            <!-- Description -->
-            <label for="Description">Description : </label>
-            <input
-              type="text"
-              id="Description"
-              name="Description"
-              placeholder="write in HTML format"
-            /><br />
 
             <!-- Link  -->
             <label for="Link">Link : </label>
@@ -159,18 +153,13 @@
               placeholder="Duration"
             /><br />
 
-            <!-- Description -->
-            <label for="Description">Description : </label
-            ><input
-              type="text"
-              id="Description"
-              name="Description"
-              placeholder="Description"
-            /><br />
+            Description: <textarea rows="8" cols="30"
+             placeholder="Write in HTML format"></textarea><br>
+
           </fieldset>
           <button type="submit" class="btn">submit</button>
           <button type="reset" class="btn">reset</button>
-          <button class="btn" onclick="View & Print">view & Print</button>
+          <button class="btn" onclick="View & Print">View & Print</button>
         </form>
       </div>
       <div class="right">
@@ -181,7 +170,10 @@
         <div class="block2">
           <h2>Education</h2>
         </div>
-        <div class="block3"></div>
+        <div class="block1">
+            <p>CGPA</p>
+        </div>
+        <div class="block3"><h2>Skills</h2></div>
         <div class="block4">
           <h2>Project</h2>
         </div>

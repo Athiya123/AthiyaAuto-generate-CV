@@ -47,6 +47,33 @@ main>.left fieldset{
     border-top: 1px dashed #000;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  label {
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+  }
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  input[type=tel], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  
+
 .btn{
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
@@ -79,6 +106,9 @@ main>.right>.block1{
     color: gray;
     width: 60vw;
 }
+
+
+
 .print{
     display: none;
 }
