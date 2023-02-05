@@ -15,34 +15,34 @@ function handleSubmit(e) {
   //document.getElementById("display-name").style.fontSize = "30px";
  // document.getElementById("display-name").style.color = "pink";
   document.getElementById("name").value = '';
-//---------------email
+
 
   var name = document.getElementById("Email").value;
   document.getElementById("display-Email").innerHTML = name;
   document.getElementById("display-Email").style.fontSize = "20px";
  // document.getElementById("display-Email").style.color = "pink";
   document.getElementById("Email").value = '';
-//-----------------phone
+
 
   var name = document.getElementById("Phone").value;
   document.getElementById("display-Phone").innerHTML = name;
   document.getElementById("display-Phone").style.fontSize = "20px";
   //document.getElementById("display-Phone").style.color = "pink";
   document.getElementById("Phone").value = '';
-//---------------------github
+
 
   var name = document.getElementById("Github").value;
   document.getElementById("display-Github").innerHTML = name;
   document.getElementById("display-Github").style.fontSize = "20px";
  // document.getElementById("display-Github").style.color = "pink";
   document.getElementById("Github").value = '';
-//------------lik
+
   var name = document.getElementById("Linkedin").value;
   document.getElementById("display-Linkedin").innerHTML = name;
   document.getElementById("display-Linkedin").style.fontSize = "20px";
  // document.getElementById("display-Linkedin").style.color = "pink";
   document.getElementById("Linkedin").value = '';
-//----------------------------------------------edu
+
   var name = document.getElementById("Degree").value;
   document.getElementById("display-Degree").innerHTML = name;
   document.getElementById("display-Degree").style.fontSize = "15px";
@@ -75,14 +75,13 @@ function handleSubmit(e) {
   document.getElementById("CGPA").value = '';
 
 
-  //-------------------skills
   var name = document.getElementById("Skills").value;
   document.getElementById("display-Skills").innerHTML = name;
   document.getElementById("display-Skills").style.fontSize = "15px";
   //document.getElementById("display-Skills").style.color = "pink";
   document.getElementById("Skills").value = '';
 
-  //----------------------------project
+ 
   var name = document.getElementById("Project").value;
   document.getElementById("display-Project").innerHTML = name;
   document.getElementById("display-Project").style.fontSize = "15px";
