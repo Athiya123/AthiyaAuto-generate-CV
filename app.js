@@ -132,15 +132,24 @@ function handleSubmit(e) {
   //   similarly for all the other fields
 
 
-function handleLeft() {
-  const left = document.querySelector(".left");
-  const right = document.querySelector(".right");
-  const print = document.querySelector(".print");
-  // write more codes here
-}
+ function handleLeft() {
+    const left = document.querySelector(".left");
+    const right = document.querySelector(".right");
+    const print = document.querySelector(".print");
+    left.style.display = "none";
+    right.style.width = "100%";
+    print.style.display = "block";
+  };
 function handlePrint() {
   const right = document.querySelector(".right");
   const left = document.querySelector(".left");
   const print = document.querySelector(".print");
   // write more codes here
+
+  window.print();
+  right.classList.add("reduced");
+  left.classList.remove("hidden");
+  print.classList.add("hidden");
 }
+
+

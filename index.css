@@ -141,6 +141,15 @@ main>.right>.block3{
     text-align:left ;
 }
 
+.hidden {
+    display: none;
+}
+  
+.reduced {
+    width: 50%;
+}
+
 .print{
     display: none;
 }
+
